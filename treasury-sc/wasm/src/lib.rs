@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////
+////////////////// AUTO-GENERATED //////////////////
+////////////////////////////////////////////////////
+
+#![no_std]
+
+elrond_wasm_node::wasm_endpoints! {
+    treasury_sc
+    (
+        withdrawEgldTo
+        withdrawRealmTo
+    )
+}
+
+elrond_wasm_node::wasm_empty_callback! {}
